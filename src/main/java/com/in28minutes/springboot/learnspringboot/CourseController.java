@@ -13,17 +13,9 @@ public class CourseController {
 	public List<Course> retrieveAllCourses() {
 		return Arrays.asList(
 				new Course(1, "Learn AWS", "in28minutes"), 
-				new Course(2, "Learn Dev0ps", "in28minutes")
+				new Course(2, "Learn DevOps", "in28minutes"),
+				new Course(3, "Learn Azure", "in28minutes"),
+				new Course(3, "Learn GCP", "in28minutes")
 		);
 	}
 }
-
-//http://localhpst:8080
-//
-//	[
-//	 {
-//		 "id": 1,
-//		 "name": "Learun AWS",
-//		 "author": "in28minutes"
-//	 }
-//	 ]
